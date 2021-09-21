@@ -232,11 +232,11 @@ body.page-template-page-fullsingle-me {
         .network ul li a .svg-icon path,
         .network ul li a .svg-icon polygon,
         .network ul li a .svg-icon rect {
-          fill: #999999;
+          fill: white;
           -webkit-transition: 1s;
           transition: 1s; }
         .network ul li a .svg-icon circle {
-          stroke: #999999;
+          stroke: white;
           stroke-width: 1; }
       .network ul li a:hover .svg-icon path,
       .network ul li a:hover .svg-icon polygon,
@@ -257,7 +257,7 @@ body.page-template-page-fullsingle-me {
     font-weight: 400;
     opacity: 0.4; }
     .credit p.copyright a {
-      color: #999999; }
+      color: white; }
 
 body.page-template-page-fullsingle-me.me-video {
   background-image: none; }
