@@ -246,13 +246,13 @@ body.page-template-page-fullsingle-me {
         transition: 0.1s; }
 
 .credit {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   margin-bottom: 0;
   -webkit-animation: fadein 8s;
           animation: fadein 8s; }
   .credit p.copyright {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     font-weight: 400;
     opacity: 0.4; }
