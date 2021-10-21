@@ -63,7 +63,8 @@ img.aligncenter {
 
 body {
   background-color: #FFFFFF;
-  border-style: none; }
+  border-style: none;
+}
 
 body,
 p,
@@ -102,9 +103,10 @@ body.page-template-page-fullsingle-me {
   line-height: 60px;
   letter-spacing: -0.5px;
   color: white;
-  background-image: url("../../images/background.png");
+  background: linear-gradient(263.61deg, rgba(0, 0, 0, 0) 12.69%, rgba(0, 0, 0, 0.88) 101.65%), url("../../images/background.png");
   background-position: center center;
   background-size: cover; }
+
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
     color: white; }
@@ -306,6 +308,7 @@ h2 {
   /* or 45px */
 
   letter-spacing: 0.1px;
+  margin: 16px 0px;
 }
 
 h6 {
@@ -318,3 +321,4 @@ h6 {
 
   letter-spacing: 0.1px;
 }
+
