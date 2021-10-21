@@ -1,12 +1,4 @@
-/*
-Template Name: Me
-Author: One Page Love
-Author URI: https://onepagelove.com
-Template URI: https://onepagelove.com/me
-Description: Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo, bio and icons.
-Version: 0.2.2
-*/
-/* -- CSS Reset -- */
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -163,6 +155,11 @@ body.page-template-page-fullsingle-me {
       -webkit-align-self: center;
               align-self: center; } }
   .logo img {
+    position: static;
+    width: 222.37px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
     max-width: 300px;
     height: auto; }
 
@@ -299,3 +296,35 @@ body.page-template-page-fullsingle-me.me-video {
     height: 100%; }
   body.page-template-page-fullsingle-me.me-video .fs-me {
     background-color: rgba(0, 0, 0, 0.6); }
+
+h2 {
+  /* H2 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+
+  letter-spacing: 0.1px;
+}
+
+h5 {
+  position: static;
+  width: 609px;
+  height: 44px;
+  left: 0px;
+  top: 106px;
+}
+
+h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: 0.1px;
+}
